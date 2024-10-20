@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link id="theme" rel="stylesheet" href="style.css" type="text/css">
+    <title>Words API</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sedan:ital@0;1&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>WikiWords</h1>
+        <div id="mode">
+            <h5>Enable dark mode</h5>
+            <div id="bc">
+                <div id="dot"></div>
+            </div>
+        </div>
+    </header>
+<main>
+    <nav>
+        <input type="text" id="userInput" placeholder="Enter a word">
+        <button id="btn">Search</button>
+    </nav>
+    
+    <div id="word_div">
+        <h1 id="word"></h1>
+        <a id="pron" target="_blank"></a>
+        <p id="if_audio"></p>
+    </div>
+    <div id="container">
+        <div id="meanings_div">
+            <h2 id="meanings"></h2>
+            <div id="meanings_list"></div>
+        </div>
+        <div id="synonyms_div">
+            <h2 id="synonyms"></h2>
+            <div id="synonyms_list"></div>
+        </div>
+        <div id="antonyms_div">
+            <h2 id="antonyms"></h2>
+            <div id="antonyms_list"></div>
+        </div>
+    </div>
+    
+    
+</main>
+    <script src="script.js"></script>
+</body>
+</html>
